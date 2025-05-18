@@ -146,3 +146,11 @@ utils.py	Evaluation utilities (e.g., metrics, plotting)
 </code> </pre>
 
 
+## 💡Future Enhancements
+
+- Refactor anomaly detection into a configurable class-based structure.
+- separate modules for training, evaluation, execution.
+- Add support for loading custom datasets via CLI or config.
+- Modularize evaluation metrics and visualization.
+- Consider real-time anomaly streaming support.
+
