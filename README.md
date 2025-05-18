@@ -1,9 +1,9 @@
 # Lightweight-Anomaly-Detection-Model
-
+<pre> <code>
 🔧 Execution:
 1. change directory to: \lightweight_anormaly_detection
-2. Create a virtual environment 
-	Windows (Command Prompt):
+2. Create a virtual environment
+	 Windows (Command Prompt):
 		py -m venv .venv
 		.venv\Scripts\activate
 
@@ -11,10 +11,10 @@
 		python3 -m venv .venv
 		source .venv/bin/activate
 
-3. Install dependencies
+4. Install dependencies
 	pip install -r requirements.txt
 
-4. run the command for pandas version: python pandas\main.py
+5. run the command for pandas version: python pandas\main.py
 
 
 
@@ -114,4 +114,6 @@ main.py		Runs experiments across modes/sample sizes
 detector.py	Contains baseline building and anomaly detection logic
 stats.py	Computes statistical metrics and z-scores
 utils.py	Evaluation utilities (e.g., metrics, plotting)
+
+</code> </pre>
 
