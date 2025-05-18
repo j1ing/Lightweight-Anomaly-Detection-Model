@@ -1,1 +1,1 @@
-# Lightweight-Anomaly-Detection-Model-
+# Lightweight-Anomaly-Detection-Model
