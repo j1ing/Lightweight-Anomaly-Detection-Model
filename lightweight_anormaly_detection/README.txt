@@ -1,5 +1,5 @@
 🔧 Execution:
-1. change directory to: \lightweight_anormaly_detection
+1. Change directory to: \lightweight_anormaly_detection
 2. Create a virtual environment 
 	Windows (Command Prompt):
 		py -m venv .venv
@@ -31,13 +31,13 @@ Complexity		Simple				Complex
 Best Use Case		Fast, low-resource setups	High-scale, data-rich environment
 
 Despite its simplicity, the lightweight model achieves high performance with just 20% training data:
-At 20% training data:
+
 	precision	94.66%
 	recall 		99.4%
 	F1 score 	96.93% 
 
 To demonstrate its effectiveness, I use the Power Grid Sense dataset from Kaggle.
-(https://www.kaggle.com/datasets/ziya07/powergridsense-dataset/data)
+https://www.kaggle.com/datasets/ziya07/powergridsense-dataset/data
 
 This model uses a baseline-based z-score method to detect abnormalities in voltage, frequency, and power factor readings.
 Due to the nature of the dataset, a one-time baseline calibration is used, as the sensor data is expected to remain consistent over time.
