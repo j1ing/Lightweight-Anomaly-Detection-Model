@@ -47,6 +47,8 @@ precision	94.66%
 recall 		99.4%
 F1 score 	96.93% 
 </code> </pre>
+![trusted_performance_metrics_graph](https://github.com/user-attachments/assets/a9ba5eed-aa7a-4bc4-aede-21ab17c98e9a)
+
 To demonstrate its effectiveness, I use the Power Grid Sense dataset from Kaggle.
 
 https://www.kaggle.com/datasets/ziya07/powergridsense-dataset/data
